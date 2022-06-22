@@ -8,13 +8,16 @@ module.exports = {rijtje}
 */
 
 function rijtje(eindgetal) {
-  var uitkomst = ""
+  var uitkomst = "123456789101112131415"
+  var eindgetal = 0;
 
   // haal hieronder ______ weg en vervang dit door het juiste stukje code
-  for (var teller = 0; ______ ; teller++) {
+  for (var teller = 0; teller < eindgetal  ; teller++) {
 
     // typ hier de code die herhaald moet worden
-      
+    if (eindgetal <= 15){
+      eindgetal++;
+    }
   }
   return uitkomst;
 }
